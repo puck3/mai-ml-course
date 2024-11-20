@@ -1,4 +1,5 @@
 [tool.poetry]
+package-mode = false
 name = "mai-ml-course"
 version = "0.1.0"
 description = ""
@@ -6,15 +7,24 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-jupyter = "^1.1.1"
+python = ">=3.12,<3.13"
 pandas = "^2.2.3"
-notebook = "^7.2.2"
-numpy = "^2.1.2"
+jupyterlab = "^4.3.0"
+scipy = "^1.14.1"
 scikit-learn = "^1.5.2"
+statsmodels = "^0.14.4"
 matplotlib = "^3.9.2"
 seaborn = "^0.13.2"
+plotly = "^5.24.1"
 ipykernel = "^6.29.5"
+tqdm = "^4.67.0"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+iprogress = "^0.4"
+pmdarima = "^2.0.4"
+numpy = "1.26"
+keras = "^3.6.0"
+tensorflow = "^2.18.0"
 
 
 [build-system]
